@@ -17,9 +17,9 @@
 $(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := xenonhd_oxygen
+PRODUCT_NAME := lineage_oxygen
 BOARD_VENDOR := Xiaomi
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common.mk)
 
